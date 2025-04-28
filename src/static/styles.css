@@ -58,38 +58,30 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: linear-gradient(145deg, #ffffff, #f0f0f0);
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.7);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.activity-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15), -6px -6px 12px rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
 }
 
 .activity-card h4 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: #1a237e;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .activity-card p {
-  margin-bottom: 10px;
-  line-height: 1.6;
+  margin-bottom: 5px;
+  line-height: 1.4;
   color: #555;
 }
 
 .activity-card ul {
   list-style: none;
   padding: 0;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .activity-card ul li {
