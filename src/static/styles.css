@@ -92,23 +92,25 @@ section h3 {
   margin: 15px 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .activity-card ul li {
-  background-color: #e3f2fd;
-  color: #0d47a1;
-  padding: 8px 12px;
-  border-radius: 20px;
-  font-size: 14px;
-  border: 1px solid #90caf9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f1f8e9;
+  color: #33691e;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #aed581;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .activity-card ul li:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #dcedc8;
 }
 
 .form-group {
